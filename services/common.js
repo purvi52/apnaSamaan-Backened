@@ -16,6 +16,6 @@ exports.cookieExtractor=function(req)
         token=req.cookies['jwt'];
         
     }
-    token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MmY3MzIwZjI1NmJmOWUxNzY0MGI3YiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE0Mzg1Njk2fQ.Cvq6xAhFVQRRju4ZVolJZ4uhzZlkcBrJBBsKS6XmmMA"
+    token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzBkNDRhOTViNDNkYTllYzcxY2JjOSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNDkxODIyOX0.Qqer2MyvyfzKJKApOSO13jS7Qvr_S6HYpq_jesMLePs";
     return token;
-}
+};
